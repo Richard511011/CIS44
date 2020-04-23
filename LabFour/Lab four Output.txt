@@ -1,0 +1,120 @@
+//Richard Yu Lab 4 output 3/6/2020
+//Problem 1 AList.java Testing
+Test for getLastIndex, list1 contents are 
+The list contains 4 entries, as follows:
+a is entry 1
+c is entry 2
+b is entry 3
+c is entry 4
+
+When getLastIndex is called for "c" method returns 4
+When called for "d" method returns -1
+// End of getLastIndex test
+Test for removeEvery(),list1 entries are:
+The list contains 4 entries, as follows:
+a is entry 1
+c is entry 2
+b is entry 3
+c is entry 4
+
+removeEvery("c") is called,2 items removed, list1 entries are:
+The list contains 2 entries, as follows:
+a is entry 1
+b is entry 2
+//End of removeEvery test
+
+	//Test for equals() method, if 2 lists are the same:
+list1:
+The list contains 3 entries, as follows:
+a is entry 1
+b is entry 2
+c is entry 3
+
+list2:
+The list contains 3 entries, as follows:
+a is entry 1
+b is entry 2
+c is entry 3
+
+list1.equals(list2) returns true
+
+	//if lists are different:
+list1:
+The list contains 3 entries, as follows:
+a is entry 1
+c is entry 2
+c is entry 3
+
+list2:
+The list contains 3 entries, as follows:
+a is entry 1
+b is entry 2
+b is entry 3
+
+list1.equals(list2) returns false
+
+	//  Problem 2, LList2.java testing
+
+
+
+Test for getLastIndex, list1 contents are 
+The list contains 3 entries, as follows:
+one is entry 1
+two is entry 2
+three is entry 3
+
+When getLastIndex is called for "two" method returns 2
+When called for "d" method returns -1
+
+Test for removeEvery(),list1 entries are:
+The list contains 4 entries, as follows:
+one is entry 1
+three is entry 2
+three is entry 3
+three is entry 4
+
+removeEvery("three") is called,3 items removed, list1 entries are:
+The list contains 1 entries, as follows:
+one is entry 1
+
+	//Equals Test, if two lists are equal
+list1:
+The list contains 3 entries, as follows:
+a is entry 1
+b is entry 2
+c is entry 3
+
+list2:
+The list contains 3 entries, as follows:
+a is entry 1
+b is entry 2
+c is entry 3
+
+list1.equals(list2) returns true
+	
+	//Equals Test, if two lists are not equal
+
+list1:
+The list contains 3 entries, as follows:
+a is entry 1
+b is entry 2
+b is entry 3
+
+list2:
+The list contains 3 entries, as follows:
+a is entry 1
+b is entry 2
+c is entry 3
+
+list1.equals(list2) returns false
+
+	//Contains2 Test
+
+list1:
+The list contains 3 entries, as follows:
+a is entry 1
+b is entry 2
+b is entry 3
+
+Calling list1.contains2("c"), returns false
+Calling list1.contains2("b"), returns true
