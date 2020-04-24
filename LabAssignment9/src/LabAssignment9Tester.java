@@ -2,7 +2,8 @@
 public class LabAssignment9Tester {
 	public static void main(String[] args) {
 		// testCountMethods();
-		testIslomorphic();
+		//testIslomorphic();
+		//testExpressionTree();
 	}
 		//Tester for problem 1 count1() and count2()
 	public static void testCountMethods() {
@@ -59,6 +60,30 @@ public class LabAssignment9Tester {
 		
 
 		
+		
+	}
+	public static void testExpressionTree() {
+		System.out.println("Testing for Expression Tree");
+		String a = "9*5-3+5-8";
+		System.out.println("forming an expression tree with 9*5-3+5-8");
+		ExpressionTree t1 = new ExpressionTree(a);
+		System.out.println("Calling inorderTraversal with following tree returns:");
+		t1.inorderTraversal();
+		String b = "5+3-3/2+5/6";
+		System.out.println("forming an expression tree with 5+3-3/2+5/6");
+		ExpressionTree t2 = new ExpressionTree(b);
+		System.out.println("Calling inorderTraversal with following tree returns:");
+		t2.inorderTraversal();
+		String c = "5-";
+		System.out.println("forming an expression tree with 5-");
+		ExpressionTree t3 = new ExpressionTree(c);
+		System.out.println("Calling inorderTraversal with following tree returns:");
+		t3.inorderTraversal();
+		String d = "+8";
+		System.out.println("forming an expression tree with +8");
+		ExpressionTree t4 = new ExpressionTree(d);
+		System.out.println("Calling inorderTraversal with following tree returns:");
+		t4.inorderTraversal();
 		
 	}
 }
