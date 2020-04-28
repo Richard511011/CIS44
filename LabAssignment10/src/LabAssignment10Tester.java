@@ -7,7 +7,7 @@ public class LabAssignment10Tester {
 		getKthSmallestTester();
 	}
 	public static void isBalancedTester() {
-		
+		System.out.println("Testing for isBalancedTester());
 	}
 	public static void getPredecessorTester() {
 		
