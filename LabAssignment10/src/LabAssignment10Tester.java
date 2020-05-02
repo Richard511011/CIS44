@@ -6,11 +6,12 @@ public class LabAssignment10Tester {
 		getPredecessorTester();
 		getKthSmallestTester();
 	}
+	//Tester for isBalanced
 	public static void isBalancedTester() {
 		System.out.println("Testing for isBalancedTester());
 	}
 	public static void getPredecessorTester() {
-		
+		System.out.println("Testing for getPredecessor");
 	}
 	public static void getKthSmallestTester() {
 		
