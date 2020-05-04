@@ -23,6 +23,19 @@ public class LabAssignment10Tester {
 		BinarySearchTree<Integer> emptyTree = new BinarySearchTree();
 		System.out.println("Calling isBalanced() on a empty tree returns "+empty.isBalaced());
 	}
+	public static void isIBSTTester(){
+		System.out.println("Tester for isIBST");
+		BinarySearchTree<Integer> l1 = new BinarySearchTree(10);
+		BinarySearchTree<Integer> empty = new BinarySearchTree(3);
+		l1.add(5);
+		l1.add(15);
+		System.out.println("Calling isIBST() on a full BinarySearchTree returns "+l1.isBST());
+		System.out.println("Calling isIBST() on a BinarySearchTree with just a root returns "+empty.isBST());
+		l1.add(3);
+		l1.add(2);
+		l1.add(1);
+		System.out.println("Calling isIBST() on a non balanced BinarySearchTree returns "+l1.isBST());
+	}
 	public static void getPredecessorTester() {
 		System.out.println("Testing for getPredecessor");
 	}
