@@ -1,6 +1,6 @@
 
 public class LabAssignment10Tester {
-	//Tester
+	//Testers
 	public static void main(String[] args) {
 		isBalancedTester();
 		getPredecessorTester();
